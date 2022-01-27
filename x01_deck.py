@@ -14,13 +14,13 @@ def createDeck():
   s = []
   for i in ranks:
     for u in suits:     
+   
       deck = [i + u]
       s = s + deck
+    
   return s
 
   
-
-
 
 def main():
   deck = createDeck()
