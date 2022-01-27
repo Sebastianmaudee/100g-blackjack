@@ -1,6 +1,16 @@
 #!python3
+from x01_deck import *
 
-def value(hand):
+
+def value():
+  x = createDeck()
+  boom = []
+  for a in x:
+    boom.append(a)
+    cool = sum(boom)
+    
+    print(boom)
+
   '''
   input:
   list hand: hand is a list of strings that contains the cards in the hand
@@ -11,7 +21,8 @@ def value(hand):
   may return a list if the hand contains an Ace
   eg:
   '''
-  
+  value()
+  print(value)
   return None
 
 
