@@ -9,16 +9,16 @@ as well as a suit
 
 def createDeck():
   ranks = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
-  
   suits = ['C','D','H','S']
-  s = []
+  sup = []
   for i in ranks:
     for u in suits:     
    
       deck = [i + u]
-      s = s + deck
+      sup = sup + deck
     
-  return s
+  
+  return sup
 
   
 
